@@ -61,23 +61,16 @@ p {
 }
 
 footer{
-	position: absolute;
-	width: 100%;
 	background-color: white;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
 	color: gray;
 	margin-bottom: 0px;
-	margin-left: auto;
-	margin-right:auto;
 	border-top-style: solid;
 	border-top-width: thin;
 	border-top-color: lightgray;
-	padding:1rem 0;
-	clear:both;
 	height:50px;
-	float: middle;
 }
 
 img {
