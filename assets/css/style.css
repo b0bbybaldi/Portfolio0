@@ -21,6 +21,7 @@ header{
 	height: 500px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	background-image: url(../images/background1.jpg)
 }
 
 h2 {
@@ -68,14 +69,15 @@ footer{
 	text-align: center;
 	color: gray;
 	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right:0px;
+	margin-left: auto;
+	margin-right:auto;
 	border-top-style: solid;
 	border-top-width: thin;
 	border-top-color: lightgray;
 	padding:1rem 0;
 	clear:both;
 	height:50px;
+	float: middle;
 }
 
 img {
