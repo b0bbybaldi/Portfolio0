@@ -6,20 +6,18 @@ body {
   box-sizing: border-box;
 }
 
-/*.row:before, 
+.row:before, 
  .row:after {
    content:"";
    display: table ;
    clear:both;
-}*/
-
+}
 
 .auth-image{
   float: right;
   width: auto;
   height: 250px;
-/*  margin-top: 10px;
-  margin-right: 25px;*/
+
 }
 
 .aboutMe{
@@ -89,12 +87,9 @@ footer{
 	text-align: center;
 	color: gray;
 	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right:0px;
 	border-top-style: solid;
 	border-top-width: thin;
 	border-top-color: lightgray;
-	padding:1rem 0;
 	clear:both;
 	height:50px;
 }
@@ -103,9 +98,6 @@ img {
 	float:left;
 	padding: 5px 5px 5px 5px;
 }
-
-
-
 
 .card {
 	float: left;
