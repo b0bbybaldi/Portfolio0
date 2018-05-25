@@ -1,7 +1,31 @@
 body {
 	overflow: auto;
-	background-image: url(../images/background1.jpg)
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/*.row:before, 
+ .row:after {
+   content:"";
+   display: table ;
+   clear:both;
+}*/
+
+
+.auth-image{
+  float: right;
+  width: auto;
+  height: 250px;
+/*  margin-top: 10px;
+  margin-right: 25px;*/
+}
+
+.aboutMe{
+	float: none;
+}
+
 
 header{
 	font-weight: bold;
@@ -10,32 +34,29 @@ header{
 	height: 80px;
 }
 
-.section {
-	size: 940px ;
-}
-
 .container {
 	width: 70%;
 	margin: auto;
 	height: 500px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	background-image: url(../images/background1.jpg)
 }
 
 h2 {
 	font-size: 30px;
 	color: gray;
-	font-family: sans-serif;
+	font-family: 'Bowlby One SC', cursive;
 	font-weight: bold;
 	margin-left: 15px;
 	margin-top: 5px;
 }
 
+
+
 h3 {
 	font-size: 20px;
 	color: gray;
-	font-family: sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 	font-weight: bold;
 	margin-left: 15px;
 }
@@ -43,7 +64,7 @@ h3 {
 h4 {
 	font-size: 25px;
 	color: white;
-	font-family: sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 	font-weight: bold;
 	background-color: lightgray;
 	text-align: center;
@@ -55,20 +76,26 @@ h4 {
 p {
 	font-size:13px;
 	color: black;
-	font-family: sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 	text-align: justify;
 }
 
 footer{
+	position: absolute;
+	width: 100%;
 	background-color: white;
 	font-weight: bold;
-	font-family: sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 	text-align: center;
 	color: gray;
 	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right:0px;
 	border-top-style: solid;
 	border-top-width: thin;
 	border-top-color: lightgray;
+	padding:1rem 0;
+	clear:both;
 	height:50px;
 }
 
@@ -86,130 +113,3 @@ img {
 }
 
 
-.ninput{
-	color: white;
-	background-color: white;
-	border-width: thin;
-	border-style: solid;
-	height: 30px;
-	width: 95%;
-	margin:auto;
-	border-color: lightgray;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.einput{
-	color: white;
-	background-color: white;
-	border-width: thin;
-	border-style: solid;
-	height: 30px;
-	width: 95%;
-	margin:auto;
-	border-color: lightgray;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.minput{
-	color: white;
-	background-color: white;
-	border-width: thin;
-	border-style: solid;
-	height: 100px;
-	width: 95%;
-	margin:auto;
-	border-color: lightgray;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.ninput:hover{
-	color: lightgray;
-}
-
-.einput:hover{
-	color: lightgray;
-}
-
-.minput:hover{
-	color: lightgray;
-}
-
-@media screen and (max-width: 640px) {
-  .section {
-  width: 100%;
-  max-width: 640px;
-  margin: 0 auto;
-  clear: both;
-  float: middle;
- /* padding-top: 130px;*/
-  min-height: calc(100vh - 100px);
-}
-
-.container {
-  float: middle;
-  width: 100%;
-  max-width: 630px;
-/*  padding: 30px;*/
-  /*margin: 0 0 40px;*/
-}
-
-p {
-	font-size: 5px;
-}
-
-}
- 
- @media screen and (max-width: 768px) {
-  .section {
-  width: 100%;
-  max-width: 768px;
- /* margin: 0 auto;
-  clear: both;*/
-  float: middle;
-/*  padding-top: 130px;*/
-  min-height: calc(100vh - 70px);
-}
-
-.container {
-  float: middle;
-  width: 100%;
-  max-width: 600px;
-/*  padding: 30px;*/
-  margin: 0 0 40px;
-}
-
-p {
-	font-size: 10px;
-}
-
-}
-
- 
- @media screen and (max-width: 980px) {
-  .section {
-  width: 100%;
-  max-width: 980px;
-/*  margin: 0 auto;
-  clear: both;*/
-  float: left;
-/*  padding-top: 130px;*/
-  min-height: calc(100vh - 70px);
-}
-
-.container {
-  float: left;
-  width: 100%;
-  max-width: 960px;
-/*  padding: 30px;*/
-  margin: 0 0 40px;
-}
-
-p {
-	font-size: 11px;
-}
-
-}
- 
