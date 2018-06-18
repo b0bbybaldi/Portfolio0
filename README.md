@@ -1,5 +1,4 @@
 # Portfolio
-Deployed Here: https://b0bbybaldi.github.io/Portfolio/
 
 This project is my personal portfolio, which displays some of the projects I have created as well as some personal information and contact information of mine. 
 
